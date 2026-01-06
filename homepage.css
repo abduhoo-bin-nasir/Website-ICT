@@ -92,3 +92,33 @@ header {
         background-image: url("Images/bgggg4.jpg");
     }
 }
+.first {
+  font-size:2vw;
+  font-family: 'Overlock';
+  margin-left: 50px;
+  color: #532f17;
+}
+
+.first-in {
+  font-size:2vw;
+  font-family: 'Overlock';
+  margin-left: 50px;
+  color: #de6f20;
+}
+
+.dish {
+  width: 40vw;
+  height: 40vw;
+  float: right;
+  display: inline;
+  border-radius: 20px;
+}
+
+.second {
+  font-size:2vw;
+  font-family: 'Overlock';
+  margin-left: 50px;
+  color: #532f17;
+  text-align: center;
+}
+
