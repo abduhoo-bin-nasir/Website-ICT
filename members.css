@@ -63,32 +63,28 @@ header {
 }
 
 /* Shared member name styles */
-.muhammad,
-.aiza,
-.ali,
-.muzzi,
-.tayyiba {
+.abduhoo,
+.hareem,
+.jav,
+ {
   font-size: 3vw;
   font-family: 'Overlock';
   color: #532f17;
   margin-left: 14vw;
 }
 
-.muhammad a,
-.aiza a,
-.ali a,
-.muzzi a,
-.tayyiba a {
+.abduhoo a,
+.hareem a,
+.jav a,
+ {
   color: #532f17;
   text-decoration: none;
   transition: color 0.3s;
 }
 
-.muhammad a:hover,
-.aiza a:hover,
-.ali a:hover,
-.muzzi a:hover,
-.tayyiba a:hover {
+.abduhoo a:hover,
+.hareem a:hover,
+.jav a:hover, {
   color: #de6f20;
 }
 /* === FOOTER === */
