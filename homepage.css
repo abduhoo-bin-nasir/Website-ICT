@@ -201,10 +201,34 @@ header {
   margin-right: 200px;
   color: #532f17;
 }
+/*Footer Section*/
 footer {
   padding: 0.1%;
   background-color: #222222;
   border-bottom: 4px solid #000000;
   border-radius: 10px;
   margin-top: 10vw;
+}
+/*Footer Logos*/
+.foot {
+  margin-left: 35vw;
+  margin-top: 50px;
+}
+
+.facebook {
+  display: inline;
+
+}
+
+.facebook a {
+  color: #3b5998;
+}
+
+.twitter {
+  display: inline;
+  margin-left: 14vw;
+}
+
+.twitter a {
+  color: #00acee;
 }
