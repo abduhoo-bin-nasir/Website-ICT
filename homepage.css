@@ -232,3 +232,18 @@ footer {
 .twitter a {
   color: #00acee;
 }
+/*Copyright Info*/
+.copyright {
+  margin-left: 70vw;
+  margin-top: 5vw;
+  font-size: 2vw;
+  font-family: 'Overlock';
+}
+/*Contact Section*/
+.contact {
+  font-size:5vw;
+  font-family: 'Overlock';
+  color: #eedd82;
+  margin-left: 37vw;
+}
+
