@@ -6,7 +6,7 @@ body {
   background-attachment: fixed;
 
 }
-
+/*Navigation Bar*/
 header {
   padding: 1%;
   background-color: #222222;
@@ -19,7 +19,7 @@ header {
   flex-wrap: nowrap;
   margin-left: 40vw;
 }
-
+/*Navigation Links*/
 .flexcontainer > div {
   width: 300px;
   margin-left: 2vw;
@@ -48,6 +48,7 @@ header {
 .a a:hover {
   text-decoration: underline;
 }
+/*Logo Image*/
 .logo {
   display: block;
   width: 130px;
@@ -56,6 +57,8 @@ header {
   margin-right:0;
   margin-top: -80px;
 }
+/*Slideshow Container*/
+
 .bg-image {
   background-image: url("Images/bgggg.jpg");
   background-position: center;
@@ -73,6 +76,9 @@ header {
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
+/*Slideshow Animation*/ 
+ /*Slides change every 4 seconds*/
+
 @keyframes slider {
     0% {
         background-image: url("Images/bgggg.jpg");
@@ -92,6 +98,7 @@ header {
         background-image: url("Images/bgggg4.jpg");
     }
 }
+/*Dish Section*/
 .first {
   font-size:2vw;
   font-family: 'Overlock';
@@ -105,7 +112,7 @@ header {
   margin-left: 50px;
   color: #de6f20;
 }
-
+/*Dish Image*/
 .dish {
   width: 40vw;
   height: 40vw;
@@ -113,7 +120,7 @@ header {
   display: inline;
   border-radius: 20px;
 }
-
+/*Burger Section*/
 .second {
   font-size:2vw;
   font-family: 'Overlock';
@@ -121,6 +128,7 @@ header {
   color: #532f17;
   text-align: center;
 }
+/*Tachyon Section*/
 .tachyon {
   width: 40vw;
   height: 30vw;
@@ -144,6 +152,7 @@ header {
   margin-right: 200px;
   color: #532f17;
 }
+/*Suckon Section*/
 .suckon {
   width: 40vw;
   height: 30vw;
@@ -167,3 +176,29 @@ header {
   margin-right: 200px;
   color: #532f17;
 }
+/*Megatron Section*/
+
+.megatron {
+  width: 40vw;
+  height: 40vw;
+  float: left;
+  display: inline;
+  margin-top: 60px;
+}
+
+.megatronh {
+  font-size:2vw;
+  font-family: 'Overlock';
+  margin-left: 50vw;
+  margin-top: 150px;
+  color: #532f17;
+}
+
+.megatronp {
+  font-size:2vw;
+  font-family: 'Overlock';
+  margin-left: 50vw;
+  margin-right: 200px;
+  color: #532f17;
+}
+
