@@ -48,3 +48,47 @@ header {
 .a a:hover {
   text-decoration: underline;
 }
+.logo {
+  display: block;
+  width: 130px;
+  height: 110px;
+  margin-left: 0;
+  margin-right:0;
+  margin-top: -80px;
+}
+.bg-image {
+  background-image: url("Images/bgggg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 3px 30px 3px 30px;
+  border-color: #000000;
+  border-style: solid;
+  height: 38vw;
+  width: 66vw;
+  margin-left: 15vw;
+  margin-top: 4vw;
+  animation-name: slider;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes slider {
+    0% {
+        background-image: url("Images/bgggg.jpg");
+    }
+
+    20% {
+        background-image: url("Images/bgggg1.jpg");
+    }
+
+    40% {
+        background-image: url("Images/bgggg2.jpg");
+    }
+    60% {
+        background-image: url("Images/bgggg3.jpg");
+    }
+    80% {
+        background-image: url("Images/bgggg4.jpg");
+    }
+}
