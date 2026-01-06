@@ -28,6 +28,19 @@ The **Members** page includes portfolio sections for each group member, showcasi
 Each member’s portfolio is maintained within the `portfolios` directory of this repository.
 
 ---
+## 👥 Team & Contributions
+
+This section outlines **which team member was responsible for each part of the project**, ensuring clear accountability.
+
+| Section / Feature | Responsible Member | Notes |
+|------------------|------------------|-------|
+| Home Page | Hareem Ahad | Developed layout, content, and styling |
+| Menu Page | Javeria Amjad Malik | Created menu structure and CSS styling |
+| About Us Page | Abduhoo Bin Nasir | Wrote content and designed page layout |
+| Members Page | Abduhoo Bin Nasir | Added team member portfolio links and layout |
+| Portfolios | Each member individually | Each member maintained their own portfolio folder inside `portfolios/` |
+
+---
 
 ## 🛠️ Technologies Used
 
