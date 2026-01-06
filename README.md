@@ -48,4 +48,46 @@ This section outlines **which team member was responsible for each part of the p
 - **CSS**
 
 ---
+## 💡 Challenges & Learning Outcomes
+
+### Challenges Faced
+During the development of the Burger Website, our team encountered several challenges:
+
+1. **Coordinating Group Work**
+   - Managing contributions from three members required careful organization of folders and files.
+   - Ensuring that no one accidentally overwrote another member’s work on the shared repository was critical.
+
+2. **Consistent Design Across Pages**
+   - Maintaining a uniform style for multiple pages (Home, Menu, About Us, Members) required coordination of CSS styling.
+   - Deciding on fonts, colors, and layout structure collectively was sometimes challenging.
+
+3. **Portfolio Integration**
+   - Structuring the `portfolios` folder so that each member could maintain their own content while keeping the repository organized.
+   - Linking individual portfolios correctly from the Members page to ensure functionality.
+
+4. **HTML & CSS Best Practices**
+   - Writing clean, semantic HTML and well-structured CSS for maintainability.
+   - Ensuring pages were easily navigable and visually appealing.
+
+---
+
+### Learning Outcomes
+Through this project, we gained practical experience in:
+
+- **Team Collaboration**
+  - Using GitHub effectively for version control, branch management, and resolving merge conflicts.
+  - Understanding roles and responsibilities within a small team.
+
+- **Web Development Skills**
+  - Building multi-page websites using HTML5 and CSS3.
+  - Creating reusable folder structures and linking assets properly.
+
+- **Problem-Solving & Project Management**
+  - Planning tasks and assigning responsibilities.
+  - Structuring files and folders for clarity and ease of maintenance.
+
+- **Portfolio Presentation**
+  - Presenting individual work in a professional manner within a collaborative project.
+  - Ensuring each member’s contribution is documented and accessible.
+
 
