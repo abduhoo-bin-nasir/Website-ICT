@@ -1,13 +1,11 @@
-
 body {
-  font-family:  'poppins' ,sans-serif;
   background-color: #ffffff;
   background-image: url('Images/background.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-}
 
+}
 header {
   position: sticky;
   top: 0;
@@ -62,144 +60,34 @@ header {
   margin-top: -80px;
 }
 
-.Burgers {
-  font-family: 'Overlock';
-  font-size:3vw;
-  text-align: center;
-  color: #eedd82;
-  background-color: #222222;
-  padding: 10px;
-  margin-left: 25vw;
-  margin-right: 25vw;
-  border-radius: 50px;
-  border: 5px solid #000000;
+
+
+.content-section{
+    float: center;
+    width: 50%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+    min-height: 100vh;
 }
 
-.items {
-  display: flex;
-  flex-wrap: nowrap;
+.title{
+    display: center;
+    text-transform: uppercase;
+    font-size: 28px;
+    padding-bottom: 4rem;
 }
-
-.details{
-  font-family: 'Overlock';
-  font-size:1.5vw;
-  margin-left: 2vw;
-  margin-right: 5vw;
+.container h3{
+    margin-top: 50px;
+    font-size: 29px;
+    font-family: sans-serif;
 }
-
-.details>p{
-  color: #6f6f6f;
-  font-size: 1.5vw;
-  font-weight: 400;
-  font-family: 'Overlock';
-
+.content p{
+    margin-top: 42px;
+    font-family: sans-serif;
+    font-size: 22px;
+    line-height: 1.5;
 }
-
-.details>button{
-  background-color: #222222;
-  border: none;
-  color: #ffffff;
-  font-size: 1.5vw;
-  font-weight: 600;
-  border-radius: 5px;
-  padding: 10px;
-  width: 40vw;
-}
-
-.details>button:hover{
-  color: #ffffff;
-  background-color: #000000;
-  cursor: pointer;
-}		
-
-.details1{
-  font-family: 'Overlock';
-  font-size:1.5vw;
-  margin-left: 2vw;
-  margin-right: 700px;
-}
-
-.details1>p{
-  color: #6f6f6f;
-  font-size: 1.5vw;
-  font-weight: 400;
-  font-family: 'Overlock';
-
-}
-
-.details1>button{
-  background-color: #222222;
-  border: none;
-  color: #ffffff;
-  font-size: 1.5vw;
-  font-weight: 600;
-  border-radius: 5px;
-  padding: 10px;
-  width: 40vw;
-}
-
-.details1>button:hover{
-  color: #ffffff;
-  background-color: #000000;
-  cursor: pointer;
-}		
-
-
-.st {
-  position: relative;
-  border-radius: 15px 15px 15px 15px;
-  width: 30vw;
-  height: 30vw;
-  margin-left: 7vw;
-}
-
-/* === DEALS TABLE === */
-.deals-table {
-  width: 80%;
-  margin: 0 auto;
-  border-collapse: collapse;
-  background-color: #ffffff;
-  border-radius: 10px;
-  overflow: hidden;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-.deals-table thead {
-  background-color: #222222;
-  color: #eedd82;
-}
-
-.deals-table th {
-  padding: 15px;
-  font-family: 'Overlock';
-  font-size: 1.8vw;
-  text-align: left;
-  border-bottom: 3px solid #000000;
-}
-
-.deals-table td {
-  padding: 12px 15px;
-  font-family: 'Overlock';
-  font-size: 1.5vw;
-  color: #532f17;
-  border-bottom: 1px solid #ddd;
-}
-
-.deals-table tbody tr:hover {
-  background-color: #f5f5f5;
-  cursor: pointer;
-}
-
-.deals-table tbody tr:last-child td {
-  border-bottom: none;
-}
-
-/* Makes the discount column stand out */
-.deals-table td:last-child {
-  color: #de6f20;
-  font-weight: bold;
-}
-
 /* === FOOTER === */
 footer {
   padding: 0.1%;

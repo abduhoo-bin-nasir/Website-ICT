@@ -1,0 +1,182 @@
+/* === GLOBAL & HEADER === */
+body {
+  background: #ffffff url('Images/background.jpg') no-repeat fixed center/cover;
+  margin: 0;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  padding: 0.5% 1%;
+  background-color: #222222;
+  border-bottom: 4px solid #000000;
+  border-radius: 0 0 15px 15px;
+}
+
+.logo {
+  display: block;
+  width: 80px;
+  height: 70px;
+  margin: -50px 0 0 0;
+}
+
+/* === NAVIGATION === */
+.flexcontainer {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-left: 40vw;
+}
+
+.flexcontainer > div {
+  width: 300px;
+  margin: 10px 0 5px 2vw;
+  text-align: center;
+  line-height: 40px;
+  font-size: 2vw;
+  font-family: 'Overlock';
+}
+
+.flexcontainer > div a {
+  color: #eedd82;
+  text-decoration: none;
+}
+
+.flexcontainer > div a:hover,
+.h a {
+  text-decoration: underline;
+}
+
+/* === MEMBERS SECTION === */
+.members {
+  font-size: 2vw;
+  font-family: 'Overlock';
+  text-align: center;
+  color: #532f17;
+}
+
+.pic {
+  width: 300px;
+  height: 400px;
+  float: right;
+  margin-right: 10vw;
+}
+
+/* Shared member name styles */
+.muhammad,
+.aiza,
+.ali,
+.muzzi,
+.tayyiba {
+  font-size: 3vw;
+  font-family: 'Overlock';
+  color: #532f17;
+  margin-left: 14vw;
+}
+
+.muhammad a,
+.aiza a,
+.ali a,
+.muzzi a,
+.tayyiba a {
+  color: #532f17;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.muhammad a:hover,
+.aiza a:hover,
+.ali a:hover,
+.muzzi a:hover,
+.tayyiba a:hover {
+  color: #de6f20;
+}
+/* === FOOTER === */
+footer {
+  padding: 0.1%;
+  background-color: #222222;
+  border-bottom: 4px solid #000000;
+  border-radius: 10px;
+  margin-top: 10vw;
+}
+
+.contact {
+  font-size: 5vw;
+  font-family: 'Overlock';
+  color: #eedd82;
+  text-align: center;
+}
+
+.contact-right form {
+  width: 90%;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  border: 0;
+  outline: none;
+  background: #262626;
+  padding: 15px;
+  margin: 15px 5vw;
+  color: #eedd82;
+  font-size: 18px;
+  border-radius: 6px;
+}
+
+.gender-selection {
+  margin: 15px 5vw;
+  display: flex;
+  gap: 30px;
+}
+
+.gender-selection label {
+  display: flex;
+  align-items: center;
+  color: #eedd82;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.gender-selection input[type="radio"] {
+  width: auto;
+  margin: 0 10px 0 0;
+  cursor: pointer;
+  accent-color: #eedd82;
+}
+
+.gender-selection span {
+  user-select: none;
+}
+
+form button {
+  margin-left: 30vw;
+  width: 42%;
+  background-color: #eedd82;
+  color: #222222;
+  padding: 1%;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.foot {
+  display: flex;
+  justify-content: center;
+  gap: 14vw;
+  margin-top: 50px;
+}
+
+.facebook a {
+  color: #3b5998;
+}
+
+.twitter a {
+  color: #00acee;
+}
+
+.copyright {
+  margin: 5vw 0 0 70vw;
+  font-size: 2vw;
+  font-family: 'Overlock';
+}

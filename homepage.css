@@ -8,10 +8,13 @@ body {
 }
 /*Navigation Bar*/
 header {
-  padding: 1%;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  padding: 0.5% 1%;
   background-color: #222222;
   border-bottom: 4px solid #000000;
-  border-radius: 15px;
+  border-radius: 0 0 15px 15px;
 }
 
 .flexcontainer {
@@ -201,7 +204,7 @@ header {
   margin-right: 200px;
   color: #532f17;
 }
-/*Footer Section*/
+/* === FOOTER === */
 footer {
   padding: 0.1%;
   background-color: #222222;
@@ -209,65 +212,84 @@ footer {
   border-radius: 10px;
   margin-top: 10vw;
 }
-/*Footer Logos*/
-.foot {
-  margin-left: 35vw;
-  margin-top: 50px;
+
+.contact {
+  font-size: 5vw;
+  font-family: 'Overlock';
+  color: #eedd82;
+  text-align: center;
 }
 
-.facebook {
-  display: inline;
+.contact-right form {
+  width: 90%;
+}
 
+form input,
+form textarea {
+  width: 100%;
+  border: 0;
+  outline: none;
+  background: #262626;
+  padding: 15px;
+  margin: 15px 5vw;
+  color: #eedd82;
+  font-size: 18px;
+  border-radius: 6px;
+}
+
+.gender-selection {
+  margin: 15px 5vw;
+  display: flex;
+  gap: 30px;
+}
+
+.gender-selection label {
+  display: flex;
+  align-items: center;
+  color: #eedd82;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.gender-selection input[type="radio"] {
+  width: auto;
+  margin: 0 10px 0 0;
+  cursor: pointer;
+  accent-color: #eedd82;
+}
+
+.gender-selection span {
+  user-select: none;
+}
+
+form button {
+  margin-left: 30vw;
+  width: 42%;
+  background-color: #eedd82;
+  color: #222222;
+  padding: 1%;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.foot {
+  display: flex;
+  justify-content: center;
+  gap: 14vw;
+  margin-top: 50px;
 }
 
 .facebook a {
   color: #3b5998;
 }
 
-.twitter {
-  display: inline;
-  margin-left: 14vw;
-}
-
 .twitter a {
   color: #00acee;
 }
-/*Copyright Info*/
+
 .copyright {
-  margin-left: 70vw;
-  margin-top: 5vw;
+  margin: 5vw 0 0 70vw;
   font-size: 2vw;
   font-family: 'Overlock';
-}
-/*Contact Section*/
-.contact {
-  font-size:5vw;
-  font-family: 'Overlock';
-  color: #eedd82;
-  margin-left: 37vw;
-}
-.contact-right form{
-    width: 90%;
-}
-form input, form textarea{
-    width: 100%;
-    border: 0;
-    outline: none;
-    background: #262626;
-    padding: 15px;
-    margin: 15px 5vw;
-    color: #eedd82;
-    font-size: 18px;
-    border-radius: 6px;
-}
-
-form button{
-    margin-left: 30vw;
-    width: 35%;
-    background-color: #eedd82;
-    color: #222222;
-    padding: 6px;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
 }
