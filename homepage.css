@@ -144,4 +144,26 @@ header {
   margin-right: 200px;
   color: #532f17;
 }
+.suckon {
+  width: 40vw;
+  height: 30vw;
+  float: left;
+  display: inline;
+  margin-top: 90px;
+}
 
+.suckonh {
+  font-size:2vw;
+  font-family: 'Overlock';
+  margin-left: 50vw;
+  margin-top: 150px;
+  color: #532f17;
+}
+
+.suckonp {
+  font-size:2vw;
+  font-family: 'Overlock';
+  margin-left: 50vw;
+  margin-right: 200px;
+  color: #532f17;
+}
