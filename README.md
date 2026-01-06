@@ -21,9 +21,9 @@ The website consists of the following pages:
 
 The **Members** page includes portfolio sections for each group member, showcasing individual contributions and work.
 
-- **Abduhoo**  
-- **Hareem**  
-- **Javeria**  
+- **Abduhoo Bin Nasir**  
+- **Hareem Ahad**  
+- **Javeria Amjad Malik**  
 
 Each member’s portfolio is maintained within the `portfolios` directory of this repository.
 
