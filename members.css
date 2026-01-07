@@ -65,8 +65,7 @@ header {
 /* Shared member name styles */
 .abduhoo,
 .hareem,
-.jav,
- {
+.jav {
   font-size: 3vw;
   font-family: 'Overlock';
   color: #532f17;
@@ -75,8 +74,7 @@ header {
 
 .abduhoo a,
 .hareem a,
-.jav a,
- {
+.jav a {
   color: #532f17;
   text-decoration: none;
   transition: color 0.3s;
@@ -84,9 +82,10 @@ header {
 
 .abduhoo a:hover,
 .hareem a:hover,
-.jav a:hover, {
+.jav a:hover {
   color: #de6f20;
 }
+
 /* === FOOTER === */
 footer {
   padding: 0.1%;
