@@ -41,7 +41,7 @@ header {
 }
 
 .h a:link{
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .a a:link {
@@ -49,6 +49,9 @@ header {
 }
 
 .a a:hover {
+  text-decoration: underline;
+}
+.h a:hover {
   text-decoration: underline;
 }
 /*Logo Image*/
